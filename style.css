@@ -1,0 +1,38 @@
+body{
+    font-family: 'monospace', cursive;
+    background: rgb(248, 144, 215);
+}
+
+.header_div
+{
+    background: rgb(241, 205, 231);
+    color: rgb(247, 28, 163);
+}
+
+.header_div p{
+    font-family: 'monospace', sans-serif;
+    color: rgb(164, 140, 159);
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main_div button{
+    font-family: 'monospace', sans-serif;
+    margin-top: 30px;
+    width: 130px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+.copy_right_footer{
+    position: fixed;
+    color: rgb(128, 82, 114);
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    background-color: rgb(255, 240, 253);
+    line-height: 3;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(164, 140, 158);
+}

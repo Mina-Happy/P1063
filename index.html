@@ -1,0 +1,43 @@
+
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <div class="col-xs-12 header_div text-center">
+      <h2>Animal sounds</h2>
+      <p>Note: Play different animal sounds like meow, bark, moo and roar to show pictures of the animals</p>
+    </div>
+    <div class="main_div">
+      <center>
+<br>
+<button class="btn btn-warning" onclick="startClassification();"> START </button>
+<h3 id="result_label">I can hear - </h3>
+<h4 id="result_confidence">Accuracy - </h4>
+<br>
+<img src="https://png.pngtree.com/png-clipart/20201117/ourmid/pngtree-white-beanie-eye-bull-head-new-year-pattern-png-image_2436344.jpg" id="cow" height="300" width="300">
+<img src="dogforproject.png" id="dog" height="300" width="300">
+<img src="https://cdn0.iconfinder.com/data/icons/pet-shop-related-flat/64/pet_shop-11-512.png" id="cat" height="300" width="300">
+<img src="https://cdn.vectorstock.com/i/preview-1x/19/35/baby-tiger-vector-45271935.jpg" id="tiger" height="300" width="300">
+<img src="https://flyclipart.com/thumb2/baby-blue-mouse-683867.png" id="mouse" height="300" width="300">
+      </center>
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
